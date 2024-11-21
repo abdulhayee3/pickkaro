@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/app/components/header/header.component.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1732107880281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732107920449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +0,0 @@\n-import { Component } from '@angular/core';\n-import { faCartShopping, faHome, faSignIn } from '@fortawesome/free-solid-svg-icons';\n-\n-@Component({\n-  selector: 'app-header',\n-  templateUrl: './header.component.html',\n-  styleUrls: ['./header.component.css']\n-})\n-export class HeaderComponent {\n-\n-faHome = faHome;\n-faSignIn = faSignIn;\n-faCartShopping = faCartShopping\n-\n-}\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1732107880281,
+            "name": "Commit-0",
+            "content": "import { Component } from '@angular/core';\nimport { faCartShopping, faHome, faSignIn } from '@fortawesome/free-solid-svg-icons';\n\n@Component({\n  selector: 'app-header',\n  templateUrl: './header.component.html',\n  styleUrls: ['./header.component.css']\n})\nexport class HeaderComponent {\n\nfaHome = faHome;\nfaSignIn = faSignIn;\nfaCartShopping = faCartShopping\n\n}\n"
+        }
+    ]
+}

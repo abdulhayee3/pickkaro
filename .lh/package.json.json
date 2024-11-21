@@ -1,0 +1,126 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 27,
+            "patches": [
+                {
+                    "date": 1732108502621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732109744735,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     \"test\": \"ng test\"\n   },\n   \"private\": true,\n   \"dependencies\": {\n-    \"@angular/animations\": \"^15.2.0\",\n+    \"@angular/animations\": \"^1.2.0\",\n     \"@angular/cdk\": \"^15.2.9\",\n     \"@angular/common\": \"^15.2.0\",\n     \"@angular/compiler\": \"^15.2.0\",\n     \"@angular/core\": \"^15.2.0\",\n"
+                },
+                {
+                    "date": 1732109750037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n     \"test\": \"ng test\"\n   },\n   \"private\": true,\n   \"dependencies\": {\n-    \"@angular/animations\": \"^1.2.0\",\n+    \"@angular/animations\": \"^18.2.0\",\n     \"@angular/cdk\": \"^15.2.9\",\n     \"@angular/common\": \"^15.2.0\",\n     \"@angular/compiler\": \"^15.2.0\",\n     \"@angular/core\": \"^15.2.0\",\n"
+                },
+                {
+                    "date": 1732109755560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,10 +9,10 @@\n     \"test\": \"ng test\"\n   },\n   \"private\": true,\n   \"dependencies\": {\n-    \"@angular/animations\": \"^18.2.0\",\n-    \"@angular/cdk\": \"^15.2.9\",\n+    \"@angular/animations\": \"^18.0.0\",\n+    \"@angular/cdk\": \"^1.2.9\",\n     \"@angular/common\": \"^15.2.0\",\n     \"@angular/compiler\": \"^15.2.0\",\n     \"@angular/core\": \"^15.2.0\",\n     \"@angular/flex-layout\": \"^15.0.0-beta.42\",\n"
+                },
+                {
+                    "date": 1732109785991,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,15 +10,15 @@\n   },\n   \"private\": true,\n   \"dependencies\": {\n     \"@angular/animations\": \"^18.0.0\",\n-    \"@angular/cdk\": \"^1.2.9\",\n+    \"@angular/cdk\": \"^18.0.0\",\n     \"@angular/common\": \"^15.2.0\",\n     \"@angular/compiler\": \"^15.2.0\",\n     \"@angular/core\": \"^15.2.0\",\n     \"@angular/flex-layout\": \"^15.0.0-beta.42\",\n     \"@angular/forms\": \"^15.2.0\",\n-    \"@angular/material\": \"^15.2.9\",\n+    \"@angular/material\": \"^18.0.0\",\n     \"@angular/platform-browser\": \"^15.2.0\",\n     \"@angular/platform-browser-dynamic\": \"^15.2.0\",\n     \"@angular/router\": \"^15.2.0\",\n     \"@fortawesome/angular-fontawesome\": \"^0.12.1\",\n"
+                },
+                {
+                    "date": 1732109810709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,17 +11,17 @@\n   \"private\": true,\n   \"dependencies\": {\n     \"@angular/animations\": \"^18.0.0\",\n     \"@angular/cdk\": \"^18.0.0\",\n-    \"@angular/common\": \"^15.2.0\",\n-    \"@angular/compiler\": \"^15.2.0\",\n-    \"@angular/core\": \"^15.2.0\",\n+    \"@angular/common\": \"^18.0.0\",\n+    \"@angular/compiler\": \"^18.0.0\",\n+    \"@angular/core\": \"^18.0.0\",\n     \"@angular/flex-layout\": \"^15.0.0-beta.42\",\n-    \"@angular/forms\": \"^15.2.0\",\n+    \"@angular/forms\": \"^18.0.0\",\n     \"@angular/material\": \"^18.0.0\",\n-    \"@angular/platform-browser\": \"^15.2.0\",\n-    \"@angular/platform-browser-dynamic\": \"^15.2.0\",\n-    \"@angular/router\": \"^15.2.0\",\n+    \"@angular/platform-browser\": \"^18.0.0\",\n+    \"@angular/platform-browser-dynamic\": \"^18.0.0\",\n+    \"@angular/router\": \"^18.0.0\",\n     \"@fortawesome/angular-fontawesome\": \"^0.12.1\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n@@ -35,9 +35,9 @@\n   },\n   \"devDependencies\": {\n     \"@angular-devkit/build-angular\": \"^15.2.4\",\n     \"@angular/cli\": \"~15.2.4\",\n-    \"@angular/compiler-cli\": \"^15.2.0\",\n+    \"@angular/compiler-cli\": \"^18.0.0\",\n     \"@types/jasmine\": \"~4.3.0\",\n     \"jasmine-core\": \"~4.5.0\",\n     \"karma\": \"~6.4.0\",\n     \"karma-chrome-launcher\": \"~3.1.0\",\n"
+                },
+                {
+                    "date": 1732109847633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,18 +33,19 @@\n     \"tslib\": \"^2.3.0\",\n     \"zone.js\": \"~0.12.0\"\n   },\n   \"devDependencies\": {\n-    \"@angular-devkit/build-angular\": \"^15.2.4\",\n-    \"@angular/cli\": \"~15.2.4\",\n-    \"@angular/compiler-cli\": \"^18.0.0\",\n+    \"@angular-devkit/build-angular\": \"^17.0.0\",\n+    \"@angular/cli\": \"^17.0.0\",\n+    \"@angular/compiler-cli\": \"^17.0.0\",\n     \"@types/jasmine\": \"~4.3.0\",\n-    \"jasmine-core\": \"~4.5.0\",\n+    \"@types/node\": \"^18.15.11\",\n+    \"jasmine-core\": \"~4.6.0\",\n     \"karma\": \"~6.4.0\",\n     \"karma-chrome-launcher\": \"~3.1.0\",\n     \"karma-coverage\": \"~2.2.0\",\n     \"karma-jasmine\": \"~5.1.0\",\n     \"karma-jasmine-html-reporter\": \"~2.0.0\",\n-    \"typescript\": \"~4.9.4\"\n+    \"typescript\": \"~5.2.2\"\n   }\n }\n \n"
+                },
+                {
+                    "date": 1732109888671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -29,10 +29,9 @@\n     \"ngx-pagination\": \"^6.0.3\",\n     \"ngx-ui-loader\": \"^13.0.0\",\n     \"rxjs\": \"~7.8.0\",\n     \"sweetalert2\": \"^11.7.32\",\n-    \"tslib\": \"^2.3.0\",\n-    \"zone.js\": \"~0.12.0\"\n+   \n   },\n   \"devDependencies\": {\n     \"@angular-devkit/build-angular\": \"^17.0.0\",\n     \"@angular/cli\": \"^17.0.0\",\n"
+                },
+                {
+                    "date": 1732109934360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,19 +9,19 @@\n     \"test\": \"ng test\"\n   },\n   \"private\": true,\n   \"dependencies\": {\n-    \"@angular/animations\": \"^18.0.0\",\n-    \"@angular/cdk\": \"^18.0.0\",\n-    \"@angular/common\": \"^18.0.0\",\n-    \"@angular/compiler\": \"^18.0.0\",\n-    \"@angular/core\": \"^18.0.0\",\n+    \"@angular/animations\": \"^17.0.0\",\n+    \"@angular/cdk\": \"^17.0.0\",\n+    \"@angular/common\": \"^17.0.0\",\n+    \"@angular/compiler\": \"^17.0.0\",\n+    \"@angular/core\": \"^17.0.0\",\n     \"@angular/flex-layout\": \"^15.0.0-beta.42\",\n-    \"@angular/forms\": \"^18.0.0\",\n-    \"@angular/material\": \"^18.0.0\",\n-    \"@angular/platform-browser\": \"^18.0.0\",\n-    \"@angular/platform-browser-dynamic\": \"^18.0.0\",\n-    \"@angular/router\": \"^18.0.0\",\n+    \"@angular/forms\": \"^17.0.0\",\n+    \"@angular/material\": \"^17.0.0\",\n+    \"@angular/platform-browser\": \"^17.0.0\",\n+    \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n+    \"@angular/router\": \"^17.0.0\",\n     \"@fortawesome/angular-fontawesome\": \"^0.12.1\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n@@ -29,9 +29,10 @@\n     \"ngx-pagination\": \"^6.0.3\",\n     \"ngx-ui-loader\": \"^13.0.0\",\n     \"rxjs\": \"~7.8.0\",\n     \"sweetalert2\": \"^11.7.32\",\n-   \n+    \"tslib\": \"^2.5.0\",\n+    \"zone.js\": \"~0.14.0\"\n   },\n   \"devDependencies\": {\n     \"@angular-devkit/build-angular\": \"^17.0.0\",\n     \"@angular/cli\": \"^17.0.0\",\n"
+                },
+                {
+                    "date": 1732164188652,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     \"@angular/cdk\": \"^17.0.0\",\n     \"@angular/common\": \"^17.0.0\",\n     \"@angular/compiler\": \"^17.0.0\",\n     \"@angular/core\": \"^17.0.0\",\n-    \"@angular/flex-layout\": \"^15.0.0-beta.42\",\n+    \"@angular/flex-layout\": \"^\",\n     \"@angular/forms\": \"^17.0.0\",\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n"
+                },
+                {
+                    "date": 1732164195243,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     \"@angular/cdk\": \"^17.0.0\",\n     \"@angular/common\": \"^17.0.0\",\n     \"@angular/compiler\": \"^17.0.0\",\n     \"@angular/core\": \"^17.0.0\",\n-    \"@angular/flex-layout\": \"^\",\n+    \"@angular/flex-layout\": \"^17.0.0\",\n     \"@angular/forms\": \"^17.0.0\",\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n"
+                },
+                {
+                    "date": 1732164423899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n-    \"@fortawesome/angular-fontawesome\": \"^0.12.1\",\n+    \"@fortawesome/angular-fontawesome\": \"^0.1.1\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n     \"bootstrap\": \"^5.3.2\",\n"
+                },
+                {
+                    "date": 1732164433877,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n-    \"@fortawesome/angular-fontawesome\": \"^0.1.1\",\n+    \"@fortawesome/angular-fontawesome\": \"^0.13.1\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n     \"bootstrap\": \"^5.3.2\",\n"
+                },
+                {
+                    "date": 1732164441157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n     \"@fortawesome/angular-fontawesome\": \"^0.13.1\",\n-    \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n+    \"@fortawesome/fontawesome-svg-core\": \"^6.5.1\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n     \"bootstrap\": \"^5.3.2\",\n     \"ngx-pagination\": \"^6.0.3\",\n"
+                },
+                {
+                    "date": 1732164447177,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,10 +21,10 @@\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n     \"@fortawesome/angular-fontawesome\": \"^0.13.1\",\n-    \"@fortawesome/fontawesome-svg-core\": \"^6.5.1\",\n-    \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n+    \"@fortawesome/fontawesome-svg-core\": \"^6.5.0\",\n+    \"@fortawesome/free-solid-svg-icons\": \"^6.5.1\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n     \"bootstrap\": \"^5.3.2\",\n     \"ngx-pagination\": \"^6.0.3\",\n     \"ngx-ui-loader\": \"^13.0.0\",\n"
+                },
+                {
+                    "date": 1732164453306,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,10 @@\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n     \"@fortawesome/angular-fontawesome\": \"^0.13.1\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.5.0\",\n-    \"@fortawesome/free-solid-svg-icons\": \"^6.5.1\",\n-    \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n+    \"@fortawesome/free-solid-svg-icons\": \"^6.5.0\",\n+    \"@fortawesome/free-regular-svg-icons\": \"^6.5.0\",\n     \"bootstrap\": \"^5.3.2\",\n     \"ngx-pagination\": \"^6.0.3\",\n     \"ngx-ui-loader\": \"^13.0.0\",\n     \"rxjs\": \"~7.8.0\",\n"
+                },
+                {
+                    "date": 1732164620633,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     \"@angular/cdk\": \"^17.0.0\",\n     \"@angular/common\": \"^17.0.0\",\n     \"@angular/compiler\": \"^17.0.0\",\n     \"@angular/core\": \"^17.0.0\",\n-    \"@angular/flex-layout\": \"^17.0.0\",\n+    \"@angular/flex-layout\": \"^1.0.0\",\n     \"@angular/forms\": \"^17.0.0\",\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n"
+                },
+                {
+                    "date": 1732164653780,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     \"@angular/cdk\": \"^17.0.0\",\n     \"@angular/common\": \"^17.0.0\",\n     \"@angular/compiler\": \"^17.0.0\",\n     \"@angular/core\": \"^17.0.0\",\n-    \"@angular/flex-layout\": \"^1.0.0\",\n+    \"@angular/flex-layout\": \"^15.0.0\",\n     \"@angular/forms\": \"^17.0.0\",\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n"
+                },
+                {
+                    "date": 1732164684874,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n     \"@angular/cdk\": \"^17.0.0\",\n     \"@angular/common\": \"^17.0.0\",\n     \"@angular/compiler\": \"^17.0.0\",\n     \"@angular/core\": \"^17.0.0\",\n-    \"@angular/flex-layout\": \"^15.0.0\",\n+    \"@angular/flex-layout\": \"^1.0.0\",\n     \"@angular/forms\": \"^17.0.0\",\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n"
+                },
+                {
+                    "date": 1732164691304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,18 +14,18 @@\n     \"@angular/cdk\": \"^17.0.0\",\n     \"@angular/common\": \"^17.0.0\",\n     \"@angular/compiler\": \"^17.0.0\",\n     \"@angular/core\": \"^17.0.0\",\n-    \"@angular/flex-layout\": \"^1.0.0\",\n+    \"@angular/flex-layout\": \"^15.0.0-beta.42\",\n     \"@angular/forms\": \"^17.0.0\",\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n-    \"@fortawesome/angular-fontawesome\": \"^0.13.1\",\n-    \"@fortawesome/fontawesome-svg-core\": \"^6.5.0\",\n-    \"@fortawesome/free-solid-svg-icons\": \"^6.5.0\",\n-    \"@fortawesome/free-regular-svg-icons\": \"^6.5.0\",\n+    \"@fortawesome/angular-fontawesome\": \"^0.12.1\",\n+    \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n+    \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n+    \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n     \"bootstrap\": \"^5.3.2\",\n     \"ngx-pagination\": \"^6.0.3\",\n     \"ngx-ui-loader\": \"^13.0.0\",\n     \"rxjs\": \"~7.8.0\",\n"
+                },
+                {
+                    "date": 1732164696392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n-    \"@fortawesome/angular-fontawesome\": \"^0.12.1\",\n+    \"@fortawesome/angular-fontawesome\": \"^0.1.1\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n     \"bootstrap\": \"^5.3.2\",\n"
+                },
+                {
+                    "date": 1732164702298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n-    \"@fortawesome/angular-fontawesome\": \"^0.1.1\",\n+    \"@fortawesome/angular-fontawesome\": \"^0.13.1\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n     \"bootstrap\": \"^5.3.2\",\n"
+                },
+                {
+                    "date": 1732164710190,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,10 +21,10 @@\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n     \"@fortawesome/angular-fontawesome\": \"^0.13.1\",\n-    \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n-    \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n+    \"@fortawesome/fontawesome-svg-core\": \"^6.5.0\",\n+    \"@fortawesome/free-solid-svg-icons\": \"^6.5.1\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n     \"bootstrap\": \"^5.3.2\",\n     \"ngx-pagination\": \"^6.0.3\",\n     \"ngx-ui-loader\": \"^13.0.0\",\n"
+                },
+                {
+                    "date": 1732164715880,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,10 @@\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n     \"@fortawesome/angular-fontawesome\": \"^0.13.1\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.5.0\",\n-    \"@fortawesome/free-solid-svg-icons\": \"^6.5.1\",\n-    \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n+    \"@fortawesome/free-solid-svg-icons\": \"^6.5.0\",\n+    \"@fortawesome/free-regular-svg-icons\": \"^6.5.0\",\n     \"bootstrap\": \"^5.3.2\",\n     \"ngx-pagination\": \"^6.0.3\",\n     \"ngx-ui-loader\": \"^13.0.0\",\n     \"rxjs\": \"~7.8.0\",\n"
+                },
+                {
+                    "date": 1732164746969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n-    \"@fortawesome/angular-fontawesome\": \"^0.13.1\",\n+    \"@fortawesome/angular-fontawesome\": \"^0.13.\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.5.0\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.5.0\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.5.0\",\n     \"bootstrap\": \"^5.3.2\",\n"
+                },
+                {
+                    "date": 1732164752787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n-    \"@fortawesome/angular-fontawesome\": \"^0.13.\",\n+    \"@fortawesome/angular-fontawesome\": \"^0.13.0\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.5.0\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.5.0\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.5.0\",\n     \"bootstrap\": \"^5.3.2\",\n"
+                },
+                {
+                    "date": 1732164843917,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n-    \"@fortawesome/angular-fontawesome\": \"^0.13.0\",\n+    \"@fortawesome/angular-fontawesome\": \"^0.1.0\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.5.0\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.5.0\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.5.0\",\n     \"bootstrap\": \"^5.3.2\",\n"
+                },
+                {
+                    "date": 1732164852897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n     \"@angular/material\": \"^17.0.0\",\n     \"@angular/platform-browser\": \"^17.0.0\",\n     \"@angular/platform-browser-dynamic\": \"^17.0.0\",\n     \"@angular/router\": \"^17.0.0\",\n-    \"@fortawesome/angular-fontawesome\": \"^0.1.0\",\n+    \"@fortawesome/angular-fontawesome\": \"^0.14.0\",\n     \"@fortawesome/fontawesome-svg-core\": \"^6.5.0\",\n     \"@fortawesome/free-solid-svg-icons\": \"^6.5.0\",\n     \"@fortawesome/free-regular-svg-icons\": \"^6.5.0\",\n     \"bootstrap\": \"^5.3.2\",\n"
+                }
+            ],
+            "date": 1732108502621,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"ecom-front\",\n  \"version\": \"0.0.0\",\n  \"scripts\": {\n    \"ng\": \"ng\",\n    \"start\": \"ng serve\",\n    \"build\": \"ng build\",\n    \"watch\": \"ng build --watch --configuration development\",\n    \"test\": \"ng test\"\n  },\n  \"private\": true,\n  \"dependencies\": {\n    \"@angular/animations\": \"^15.2.0\",\n    \"@angular/cdk\": \"^15.2.9\",\n    \"@angular/common\": \"^15.2.0\",\n    \"@angular/compiler\": \"^15.2.0\",\n    \"@angular/core\": \"^15.2.0\",\n    \"@angular/flex-layout\": \"^15.0.0-beta.42\",\n    \"@angular/forms\": \"^15.2.0\",\n    \"@angular/material\": \"^15.2.9\",\n    \"@angular/platform-browser\": \"^15.2.0\",\n    \"@angular/platform-browser-dynamic\": \"^15.2.0\",\n    \"@angular/router\": \"^15.2.0\",\n    \"@fortawesome/angular-fontawesome\": \"^0.12.1\",\n    \"@fortawesome/fontawesome-svg-core\": \"^6.2.1\",\n    \"@fortawesome/free-solid-svg-icons\": \"^6.2.1\",\n    \"@fortawesome/free-regular-svg-icons\": \"^6.2.1\",\n    \"bootstrap\": \"^5.3.2\",\n    \"ngx-pagination\": \"^6.0.3\",\n    \"ngx-ui-loader\": \"^13.0.0\",\n    \"rxjs\": \"~7.8.0\",\n    \"sweetalert2\": \"^11.7.32\",\n    \"tslib\": \"^2.3.0\",\n    \"zone.js\": \"~0.12.0\"\n  },\n  \"devDependencies\": {\n    \"@angular-devkit/build-angular\": \"^15.2.4\",\n    \"@angular/cli\": \"~15.2.4\",\n    \"@angular/compiler-cli\": \"^15.2.0\",\n    \"@types/jasmine\": \"~4.3.0\",\n    \"jasmine-core\": \"~4.5.0\",\n    \"karma\": \"~6.4.0\",\n    \"karma-chrome-launcher\": \"~3.1.0\",\n    \"karma-coverage\": \"~2.2.0\",\n    \"karma-jasmine\": \"~5.1.0\",\n    \"karma-jasmine-html-reporter\": \"~2.0.0\",\n    \"typescript\": \"~4.9.4\"\n  }\n}\n\n"
+        }
+    ]
+}

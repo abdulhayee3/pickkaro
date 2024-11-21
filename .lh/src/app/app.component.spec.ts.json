@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/app.component.spec.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1732109452363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1732109452363,
+            "name": "Commit-0",
+            "content": "\n"
+        }
+    ]
+}

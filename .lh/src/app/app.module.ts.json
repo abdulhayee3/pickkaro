@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/app/app.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1732109382256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732109396184,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,87 @@\n \n+import { CommonModule } from '@angular/common';\n+import { HttpClientModule } from '@angular/common/http';\n+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';\n+import { FlexLayoutModule } from '@angular/flex-layout';\n+import { FormsModule, ReactiveFormsModule } from '@angular/forms';\n+import { MatButtonModule } from '@angular/material/button';\n+import { MatCardModule } from '@angular/material/card';\n+import { MatCheckboxModule } from '@angular/material/checkbox';\n+import { MatDialogModule } from '@angular/material/dialog';\n+import { MatDividerModule } from '@angular/material/divider';\n+import { MatFormFieldModule } from '@angular/material/form-field';\n+import { MatIconModule } from '@angular/material/icon';\n+import { MatInputModule } from '@angular/material/input';\n+import { MatListModule } from '@angular/material/list';\n+import { MatPaginatorModule } from '@angular/material/paginator';\n+import { MatRadioModule } from '@angular/material/radio';\n+import { MatSelectModule } from '@angular/material/select';\n+import { MatSnackBarModule } from '@angular/material/snack-bar';\n+import { MatTableModule } from '@angular/material/table';\n+import { MatToolbarModule } from '@angular/material/toolbar';\n+import { MatTooltipModule } from '@angular/material/tooltip';\n+import { BrowserModule } from '@angular/platform-browser';\n+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';\n+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';\n+import { CarouselModule } from 'ngx-owl-carousel-o';\n+import { NgxPaginationModule } from 'ngx-pagination';\n+import { NgxUiLoaderHttpModule, NgxUiLoaderModule } from 'ngx-ui-loader';\n+import { AppRoutingModule } from './app-routing.module';\n+import { AppComponent } from './app.component';\n+import { ContentComponent } from './components/content/content.component';\n+import { HeaderComponent } from './components/header/header.component';\n+\n+\n+\n+\n+\n+\n+\n+@NgModule({\n+  declarations: [\n+    AppComponent,\n+    LoginComponent,\n+    ContentComponent,\n+    HeaderComponent,\n+\n+  ],\n+  imports: [\n+    BrowserModule,\n+    AppRoutingModule,\n+    BrowserAnimationsModule,\n+    FlexLayoutModule,\n+    MatCardModule,\n+    MatToolbarModule,\n+    MatButtonModule,\n+    MatIconModule,\n+    HttpClientModule,\n+    MatSelectModule,\n+    MatTooltipModule,\n+    MatListModule,\n+    FormsModule,\n+    MatDialogModule,\n+    MatRadioModule,\n+    MatSnackBarModule,\n+    MatTableModule,\n+    MatPaginatorModule,\n+    MatCheckboxModule,\n+    MatDividerModule,\n+    NgxPaginationModule,\n+    MatFormFieldModule,\n+    ReactiveFormsModule,\n+    MatInputModule,\n+    NgxUiLoaderModule,\n+    CommonModule,\n+    NgxUiLoaderHttpModule.forRoot({\n+      showForeground: true\n+    }),\n+    FontAwesomeModule,\n+    CarouselModule\n+  ],\n+  providers: [],\n+  exports: [],\n+  schemas: [CUSTOM_ELEMENTS_SCHEMA],\n+  bootstrap: [AppComponent]\n+  \n+})\n+export class AppModule { }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1732109403392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -39,9 +39,8 @@\n \n @NgModule({\n   declarations: [\n     AppComponent,\n-\n     ContentComponent,\n     HeaderComponent,\n \n   ],\n"
+                }
+            ],
+            "date": 1732109382256,
+            "name": "Commit-0",
+            "content": "\n"
+        }
+    ]
+}
